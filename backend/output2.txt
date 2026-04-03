@@ -1,6 +1,0 @@
-[dotenv@17.3.1] injecting env (4) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
-RESPONSE: ```json
-{"test":"val"}
-```
-CLEANED TEXT: {"test":"val"}
-PARSED: { test: 'val' }
