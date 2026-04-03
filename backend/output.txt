@@ -1,0 +1,9 @@
+[dotenv@17.3.1] injecting env (4) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+ERROR: ApiError: {"error":{"code":404,"message":"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.","status":"NOT_FOUND"}}
+    at throwErrorIfNotOK (C:\Users\Aniket\OneDrive\Desktop\Projects\resume p-3\backend\node_modules\@google\genai\dist\node\index.cjs:13362:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Aniket\OneDrive\Desktop\Projects\resume p-3\backend\node_modules\@google\genai\dist\node\index.cjs:13065:13
+    at async Models.generateContent (C:\Users\Aniket\OneDrive\Desktop\Projects\resume p-3\backend\node_modules\@google\genai\dist\node\index.cjs:14466:24)
+    at async testai (C:\Users\Aniket\OneDrive\Desktop\Projects\resume p-3\backend\testai.js:7:22) {
+  status: 404
+}
